@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  /* background-image: url('http://img.aiimg.com/uploads/allimg/140315/263915-140315193208.jpg'); */
+  /* background-image: url('http://www.kristanix.com/fantasticfarm/goodies/fieldbackground.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table {
+  border: 2px solid pink;
+  margin: 0 auto;
+  width: 60%;
+}
+
+td {
+  border: 1px solid black;
+  height: 200px;
+  text-align: center;
+}
+
+.empty-hole {
+  background-image:
+}
+
+.hamster {
+  background-image:
+}
+
+.squashed-hamster {
+  background-image:
+}
+
+.cat-paw {
+  background-image:
+}
