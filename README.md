@@ -7,6 +7,8 @@ insert background image
 
 select hammer & nail / hamster & hammer
 
+example picture: http://i2.7414.cn/b/96225.jpg 
+
 pseudocode
 
 when there's no hamster, the cell is empty.
