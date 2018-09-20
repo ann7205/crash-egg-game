@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hamster Game</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cracking eggs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  </head>
 
 
-<body>
-  <header>
-    <h1>Hamster Game</h1>
-  </header>
+  <body>
+    <header>
+      <h1>Cracking eggs</h1>
+    </header>
 
-  <table>
-    <tr>
-      <td class="cell-1"></td>
-      <td class="cell-2"></td>
-      <td class="cell-3"></td>
-    </tr>
-    <tr>
-      <td class="cell-4"></td>
-      <td class="cell-5"></td>
-      <td class="cell-6"></td>
-    </tr>
-    <tr>
-      <td class="cell-7"></td>
-      <td class="cell-8"></td>
-      <td class="cell-9"></td>
-    </tr>
-  </table>
+    <section id="container">
+      <div class="egg-table">
+        <table>
+          <tbody>
+            <tr>
+              <td class="cell-1"></td>
+              <td class="cell-2"></td>
+              <td class="cell-3"></td>
+            </tr>
+            <tr>
+              <td class="cell-4"></td>
+              <td class="cell-5"></td>
+              <td class="cell-6"></td>
+            </tr>
+            <tr>
+              <td class="cell-7"></td>
+              <td class="cell-8"></td>
+              <td class="cell-9"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-  <section id="timer">
-    <h4>0:00</h4>
-    <p>total time: 2 minutes</p>
-  </section>
+      <aside class="timer">
+        <p>Countdown Timer: <span class="countdown">00:00</span></p>
+        <p>Smashed Number: <span class="counting"></span></p>
+        <p>Total Time: 1 minute</p>
+      </aside>
 
-  <section>
-    <button type="button" name="button">Restart</button>
-    <button type="button" name="button">Pause</button>
-  </section>
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script type="text/javascript" src="main.js">
-  </script>
-</body>
+      <aside class="button">
+        <button onclick="gameStart()" class="start-btn" type="button" name="button">Start / Resume</button>
+        <button onclick="gameStop()" class="pause-btn" type="button" name="button">Pause</button>
+        <button onclick="restartGame()" class="restart-btn" type="button" name="button">Restart</button>
+        <button onclick="togglePlayPause()" class="audStop-btn" type="button " name="button ">ON / OFF &#128266;</button>
+        <audio id="music" src="music/bensound-smallguitar.mp3" type='audio/mp3'></audio>
+        <audio id="sound-effect" src="music/step-on-egg1.wav" type='audio/wav'></audio>
+      </aside>
+    </section>
+
+    <footer>produced by &#10084; En &#10084;</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js "></script>
+    <script type="text/javascript " src="main.js ">
+    </script>
+  </body>
 
 </html>
