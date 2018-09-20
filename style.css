@@ -23,7 +23,6 @@ h1 {
   font-size: 4rem;
   margin: 1% auto;
   color: #431cf4;
-  display: inline-block;
 }
 
 #container {
@@ -67,7 +66,7 @@ p, span {
   font-size: 1.5rem;
   line-height: 1.5;
   color: rgb(244, 166, 166);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   width: 50%;
   border-radius: 10em;
   padding: 5%;
