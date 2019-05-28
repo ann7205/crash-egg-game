@@ -5,13 +5,13 @@
 
 html {
   width: 100%;
-  max-height: 100%;
+  min-height: 100%;
 }
 
 body {
   text-align: center;
   background-image: url('images/kitchen-bk4.jpg');
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -103,7 +103,7 @@ footer {
   font-size: 1rem;
   color: rgb(244, 166, 166);
   margin-bottom: 0;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 @keyframes jump {
@@ -131,3 +131,5 @@ footer {
 .effect {
   background: none;
 }
+
+@@media (max: )query {}
