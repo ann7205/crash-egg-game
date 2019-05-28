@@ -73,4 +73,6 @@ when clicking the start button, the text in the button will change to pause agai
 
 the timer will continue.
 
-the hamster will start running again.
+the hamster will start running again.  
+
+Cracking eggs link: https://minicrystal7205.github.io/final_project_ec/
